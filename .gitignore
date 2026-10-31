@@ -1,0 +1,36 @@
+# Authentication tokens and session cookies
+cookies.txt
+*/cookies.txt
+sony_bravia_cookies.txt
+*/sony_bravia_cookies.txt
+
+# Environment variables & local credentials
+.env
+*.env
+.env.local
+
+# Local device configurations containing live secrets
+local_config.json
+bravia_config.json
+config/bravia_config.json
+
+# Never ignore example / template files
+!*.example.*
+!*.example
+!config/bravia_config.example.json
+!config/cookies.example.txt
+!.env.example
+
+# Runtime locks, logs, and process dumps
+*.lock
+*.log
+
+# Python bytecode and execution caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# https://curl.se/docs/http-cookies.html
+# Sony BRAVIA XR-65X90J Authenticated Session Token Template
+# Replace <AUTH_TOKEN_HASH> with your 40-character hex auth token or run ./bin/bravia register
+10.42.0.100	FALSE	/sony	FALSE	1893456000	auth	<AUTH_TOKEN_HASH>
+192.168.1.100	FALSE	/sony	FALSE	1893456000	auth	<AUTH_TOKEN_HASH>

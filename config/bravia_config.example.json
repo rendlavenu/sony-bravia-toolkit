@@ -1,0 +1,41 @@
+{
+  "device": {
+    "brand": "Sony",
+    "model": "XR-65X90J",
+    "product": "BRAVIA_4K_VH2",
+    "platform": "BRAVIA_VH2_M_PA",
+    "soc": "MediaTek MT5895 / MT9950",
+    "serial": "0000000",
+    "region": "XGA",
+    "country": "IND",
+    "os_version": "Android TV 12 (STT2.230505.001.S136 682241)",
+    "primary_launcher": "com.techpp.glass"
+  },
+  "network": {
+    "priority": [
+      "wifi",
+      "lan"
+    ],
+    "wifi": {
+      "role": "main",
+      "ip": "192.168.1.100",
+      "mac": "38:B8:00:XX:XX:XX",
+      "interface": "wlan0",
+      "ssid": "YOUR_WIFI_SSID",
+      "static_dhcp_binding": "ROUTER_MODEL (OPTIONAL)"
+    },
+    "lan": {
+      "role": "fallback",
+      "ip": "10.42.0.100",
+      "mac": "F8:4E:17:XX:XX:XX",
+      "interface": "eth0",
+      "connection": "Direct Ethernet (Temporary)"
+    }
+  },
+  "auth": {
+    "psk": "YOUR_PSK_HERE",
+    "http_port": 80,
+    "adb_port": 5555,
+    "wake_on_lan_port": 9
+  }
+}
